@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6171DA782A0E6A5600D7CC92 /* ObterRelatoriosService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6171DA772A0E6A5600D7CC92 /* ObterRelatoriosService.swift */; };
 		6171DA7C2A0EB97100D7CC92 /* ExibirRelatoriosService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6171DA7B2A0EB97100D7CC92 /* ExibirRelatoriosService.swift */; };
+		617911122A0EC8CB00EC089C /* HomemDeFerro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 617911112A0EC8CB00EC089C /* HomemDeFerro.swift */; };
 		61FEC4492A0E68660033C8B3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FEC4482A0E68660033C8B3 /* main.swift */; };
 		61FEC4512A0E68970033C8B3 /* Heroi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FEC4502A0E68970033C8B3 /* Heroi.swift */; };
 		61FEC4532A0E68EC0033C8B3 /* CapitaoAmerica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FEC4522A0E68EC0033C8B3 /* CapitaoAmerica.swift */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		6171DA772A0E6A5600D7CC92 /* ObterRelatoriosService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObterRelatoriosService.swift; sourceTree = "<group>"; };
 		6171DA7B2A0EB97100D7CC92 /* ExibirRelatoriosService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExibirRelatoriosService.swift; sourceTree = "<group>"; };
+		617911112A0EC8CB00EC089C /* HomemDeFerro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomemDeFerro.swift; sourceTree = "<group>"; };
 		61FEC4452A0E68660033C8B3 /* SOLID */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SOLID; sourceTree = BUILT_PRODUCTS_DIR; };
 		61FEC4482A0E68660033C8B3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		61FEC4502A0E68970033C8B3 /* Heroi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroi.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				61FEC4502A0E68970033C8B3 /* Heroi.swift */,
 				61FEC4522A0E68EC0033C8B3 /* CapitaoAmerica.swift */,
 				61FEC4542A0E698A0033C8B3 /* Hulk.swift */,
+				617911112A0EC8CB00EC089C /* HomemDeFerro.swift */,
 			);
 			path = Herois;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				6171DA7C2A0EB97100D7CC92 /* ExibirRelatoriosService.swift in Sources */,
 				61FEC4532A0E68EC0033C8B3 /* CapitaoAmerica.swift in Sources */,
 				61FEC4552A0E698A0033C8B3 /* Hulk.swift in Sources */,
+				617911122A0EC8CB00EC089C /* HomemDeFerro.swift in Sources */,
 				61FEC4492A0E68660033C8B3 /* main.swift in Sources */,
 				61FEC4512A0E68970033C8B3 /* Heroi.swift in Sources */,
 				6171DA782A0E6A5600D7CC92 /* ObterRelatoriosService.swift in Sources */,

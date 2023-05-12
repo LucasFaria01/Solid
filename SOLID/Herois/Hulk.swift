@@ -15,4 +15,8 @@ class Hulk: Heroi {
         self.saude = saude
         self.raiva = raiva
     }
+    
+    func getRelatorio() -> String {
+        return "\(nome) \n Saúde: \(saude)% \n Nível de raiva: \(raiva)%"
+    }
 }

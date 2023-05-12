@@ -16,12 +16,7 @@ class ObterRelatoriosService {
     
     public func obter() -> [String] {
         herois.forEach { heroi in
-            if let capitao = heroi as? CapitaoAmerica {
-                relatorios.append("\(capitao.nome) \n Saúde: \(capitao.saude)% \n Saúde do escudo: \(capitao.saudeEscudo)%")
-                
-            } else if let hulk = heroi as? Hulk {
-                relatorios.append("\(hulk.nome) \n Saúde: \(hulk.saude)% \n Nível de raiva: \(hulk.raiva)%")
-            }
+            relatorios.append(heroi.getRelatorio())
         }
         
         return relatorios

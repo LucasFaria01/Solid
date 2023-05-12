@@ -15,4 +15,8 @@ class CapitaoAmerica: Heroi {
         self.saude = saude
         self.saudeEscudo = saudeEscudo
     }
+    
+    func getRelatorio() -> String {
+        return "\(nome) \n Saúde: \(saude)% \n Saúde do escudo: \(saudeEscudo)%"
+    }
 }

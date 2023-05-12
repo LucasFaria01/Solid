@@ -7,8 +7,9 @@
 
 let capitao = CapitaoAmerica(saude: 90, saudeEscudo: 70)
 let hulk = Hulk(saude: 100, raiva: 60)
+let homemDeFerro = HomemDeFerro(saude: 90, saudeArmadura: 60)
 
-let obterRelatoriosservice = ObterRelatoriosService(herois: [capitao, hulk])
+let obterRelatoriosservice = ObterRelatoriosService(herois: [capitao, hulk, homemDeFerro])
 let exibirRelatoriosService = ExibirRelatoriosService()
 
 let relatorios = obterRelatoriosservice.obter()
