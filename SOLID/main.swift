@@ -14,3 +14,14 @@ let exibirRelatoriosService = ExibirRelatoriosService()
 
 let relatorios = obterRelatoriosservice.obter()
 exibirRelatoriosService.exibirRelatorioFormatado(relatorios: relatorios)
+
+
+func printarSomDePeixe(peixe: Peixe) {
+    print("printando som de peixe: \(peixe.emitirSom())")
+}
+
+let atum = Peixe()
+let aquaman = Aquaman()
+
+printarSomDePeixe(peixe: atum)
+printarSomDePeixe(peixe: aquaman)
