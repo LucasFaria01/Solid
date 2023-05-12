@@ -9,6 +9,7 @@ let capitao = CapitaoAmerica(saude: 90, saudeEscudo: 70)
 let hulk = Hulk(saude: 100, raiva: 60)
 
 let obterRelatoriosservice = ObterRelatoriosService(herois: [capitao, hulk])
+let exibirRelatoriosService = ExibirRelatoriosService()
 
 let relatorios = obterRelatoriosservice.obter()
-obterRelatoriosservice.exibirRelatorioFormatado(relatorios: relatorios)
+exibirRelatoriosService.exibirRelatorioFormatado(relatorios: relatorios)

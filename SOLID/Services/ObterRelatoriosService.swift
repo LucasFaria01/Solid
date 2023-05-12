@@ -26,11 +26,4 @@ class ObterRelatoriosService {
         
         return relatorios
     }
-    
-    public func exibirRelatorioFormatado(relatorios: [String]) {
-        print("RELATORIOS DOS HEROIS \n")
-        relatorios.forEach { relatorioHeroi in
-            print("\(relatorioHeroi)\n")
-        }
-    }
 }
