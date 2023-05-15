@@ -7,7 +7,7 @@
 
 import Foundation
 
-class HomemDeFerro: Heroi {
+class HomemDeFerro: HeroiVoador {
     
     let nome = "Homem de Ferro"
     let saude: Int
@@ -20,5 +20,9 @@ class HomemDeFerro: Heroi {
     
     func getRelatorio() -> String {
         return "\(nome) \n Saúde: \(saude)% \n Saúde da armadura: \(saudeArmadura)%"
+    }
+    
+    func voar(para lugar: String) {
+        print("Homem de Ferro voa como um foguete para \(lugar)")
     }
 }
